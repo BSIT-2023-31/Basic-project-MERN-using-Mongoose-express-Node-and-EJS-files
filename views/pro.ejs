@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html ,body{
+             width: 100%;
+             height: 100%;
+
+        }
+        .contaner{
+            width: 100%;
+            height: 100%;
+            background-color: #111;
+            color: white;
+            padding: 50px;
+        }
+        h1{
+            font-size: 3vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="contaner">
+      <h1 style="margin-bottom: 20px;">Create  Product </h1>
+      <form action="/createProduct" method="post">
+        <input style="padding: 5px 10px; border-radius: 5px; width: 100%; margin-bottom: 20px; " type="text" placeholder="Enter a product Name.. " name="name">
+        <input style="padding: 5px 10px; border-radius: 5px; width: 100%; margin-bottom: 20px; " type="text" placeholder="Enter a Product Price... " name="price">
+        <input style="padding: 5px 10px; border-radius: 5px; width: 100%; margin-bottom: 20px; " type="text" placeholder="Enter a image" name="image">
+        <input style="background-color: rgb(46, 46, 171); color: white; padding: 10px 20px; font-size: 20px; border: none; cursor: pointer;  border-radius: 10px;" type="submit">
+      </form>
+    </div>
+</body>
+</html>
